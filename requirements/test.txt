@@ -2,6 +2,7 @@ black
 isort
 autoflake
 flake8
+flake8-comprehensions
 hypothesis>=3.31
 freezegun>=0.3.11
 pytest-aiofiles>=0.2.0
@@ -18,6 +19,7 @@ pytz>=2018.7
 codecov
 bandit==1.6.2
 twine
+vulture
 wheel
 -r requirements.txt
 -r extras/datadog.txt
